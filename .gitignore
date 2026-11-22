@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.aistudio/
+public/assets/aistudio/Style_Guide_-_Insert_News_V5.0_8b4b9063.json
+public/assets/aistudio/Voranitha_CV_Frontend_AI_bdbdecde.pdf
