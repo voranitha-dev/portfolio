@@ -22,6 +22,9 @@
       ]
     },
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "jsxImportSource": "@emotion/react",
     "noEmit": true
   },
   "exclude": ["dist"]

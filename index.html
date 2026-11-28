@@ -1,29 +1,126 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Voranitha Changduong — Lead Frontend & Full-Stack AI Engineer</title>
+    <title>Voranitha Changduong · Lead Frontend & Full-Stack AI Engineer</title>
     <meta
       name="description"
-      content="Engineering portfolio of Voranitha Changduong — Lead Frontend Developer with 6+ years of full-stack experience, high-traffic React/Next.js architecture, and production LLM/AI personalization pipelines."
+      content="Lead Frontend Developer at Nation Group with 8+ years of experience. React, Next.js and TypeScript for 10+ high-traffic Thai news sites, real-time voting, and production LLM workflows."
     />
-    <meta property="og:title" content="Voranitha Changduong — Lead Frontend & Full-Stack AI Engineer" />
+    <meta name="author" content="Voranitha Changduong" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#FAFAFA" />
+    <link rel="canonical" href="https://voranitha-dev.github.io/portfolio/" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Voranitha Changduong Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://voranitha-dev.github.io/portfolio/" />
+    <meta property="og:title" content="Voranitha Changduong · Lead Frontend & Full-Stack AI Engineer" />
     <meta
       property="og:description"
-      content="High-traffic web architecture across 10+ media platforms, cross-domain Auth0 SSO & BigQuery personalization pipelines, and Multi-Agent LLM engineering."
+      content="Frontend lead for 10+ high-traffic news sites, real-time national awards voting, and LLM workflows in production. Case studies in STAR format."
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://voranitha-dev.github.io/portfolio/ogImage.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Voranitha Changduong, Lead Frontend & Full-Stack AI Engineer" />
+    <meta property="profile:first_name" content="Voranitha" />
+    <meta property="profile:last_name" content="Changduong" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Voranitha Changduong · Lead Frontend & Full-Stack AI Engineer" />
+    <meta name="twitter:description" content="Frontend lead for 10+ high-traffic news sites and production LLM workflows." />
+    <meta name="twitter:image" content="https://voranitha-dev.github.io/portfolio/ogImage.png" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://voranitha-dev.github.io/portfolio/#page",
+            "url": "https://voranitha-dev.github.io/portfolio/",
+            "name": "Voranitha Changduong · Portfolio",
+            "inLanguage": "en",
+            "mainEntity": { "@id": "https://voranitha-dev.github.io/portfolio/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://voranitha-dev.github.io/portfolio/#person",
+            "name": "Voranitha Changduong",
+            "jobTitle": "Lead Frontend Developer",
+            "description": "Frontend & Full-Stack Software Engineer with 8+ years of experience, leading frontend for 10+ high-traffic news websites and building LLM-powered editorial workflows.",
+            "url": "https://voranitha-dev.github.io/portfolio/",
+            "image": "https://voranitha-dev.github.io/portfolio/ogImage.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/voranitha-changduong-0a837b1ab",
+              "https://github.com/voranitha-dev"
+            ],
+            "worksFor": { "@type": "Organization", "name": "Nation Group (Thailand) Public Co., Ltd.", "url": "https://www.nationgroup.com" },
+            "alumniOf": { "@type": "CollegeOrUniversity", "name": "Rajamangala University of Technology Thanyaburi" },
+            "address": { "@type": "PostalAddress", "addressLocality": "Samutprakan", "addressCountry": "TH" },
+            "knowsAbout": [
+              "React", "Next.js", "TypeScript", "Node.js", "Flutter", "Technical SEO", "Core Web Vitals",
+              "LLM integration", "Multi-agent AI workflows", "LangGraph", "Google BigQuery", "Auth0", "Redis", "Cloudflare"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://voranitha-dev.github.io/portfolio/#website",
+            "url": "https://voranitha-dev.github.io/portfolio/",
+            "name": "Voranitha Changduong Portfolio",
+            "publisher": { "@id": "https://voranitha-dev.github.io/portfolio/#person" }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Apply the saved / system theme before first paint (prevents a light-mode flash). -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('portfolio-theme');
+          var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Page colours before the JS bundle (and Emotion) loads, so dark mode never flashes white.
+         Keep in sync with palettes in src/styles/theme.ts. -->
+    <style>
+      html, body { margin: 0; background: #FAFAFA; color: #0A0A0A; }
+      html[data-theme='dark'], html[data-theme='dark'] body { background: #0A0A0A; color: #FAFAFA; color-scheme: dark; }
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[#FAFAFA] dark:bg-[#090B10] text-[#111318] dark:text-[#F3F4F6] antialiased selection:bg-[#1D4ED8]/15 selection:text-[#1D4ED8] dark:selection:bg-[#60A5FA]/25 dark:selection:text-[#93C5FD] transition-colors">
+  <body>
     <div id="root"></div>
+    <noscript>
+      <main style="max-width: 720px; margin: 48px auto; padding: 0 20px; font-family: system-ui, sans-serif; line-height: 1.6">
+        <h1>Voranitha Changduong · Lead Frontend & Full-Stack AI Engineer</h1>
+        <p>
+          Frontend & Full-Stack Software Engineer with 8+ years of experience. Lead Frontend Developer at Nation Group
+          (promoted within one year), leading frontend for 10+ high-traffic news websites with millions of monthly page
+          views, real-time national awards voting, and LLM workflows for editorial operations.
+        </p>
+        <p>
+          <a href="https://voranitha-dev.github.io/portfolio/assets/resume/voranithaChangduongResume.pdf">Resume (PDF)</a> ·
+          <a href="https://www.linkedin.com/in/voranitha-changduong-0a837b1ab">LinkedIn</a> ·
+          <a href="https://github.com/voranitha-dev">GitHub</a>
+        </p>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,0 +1,549 @@
+{
+  "updatedAt": "2026-11-28T14:40:05.091Z",
+  "daily": {
+    "date": "2026-11-27",
+    "sourceUrl": "https://truehits.net/ranking/view.php",
+    "brands": {
+      "bangkokbiznews": {
+        "rankThailand": 15,
+        "rankAll": 16,
+        "dailyUipThailand": 65840,
+        "dailyUipAll": 68580,
+        "thailandSharePct": 96,
+        "dailyVisitorsThailand": 72054
+      },
+      "tnews": {
+        "rankThailand": 19,
+        "rankAll": 19,
+        "dailyUipThailand": 50272,
+        "dailyUipAll": 51905,
+        "thailandSharePct": 96.85,
+        "dailyVisitorsThailand": 52341
+      },
+      "komchadluek": {
+        "rankThailand": 21,
+        "rankAll": 22,
+        "dailyUipThailand": 35833,
+        "dailyUipAll": 38094,
+        "thailandSharePct": 94.06,
+        "dailyVisitorsThailand": 37546
+      },
+      "thansettakij": {
+        "rankThailand": 34,
+        "rankAll": 36,
+        "dailyUipThailand": 22767,
+        "dailyUipAll": 24127,
+        "thailandSharePct": 94.36,
+        "dailyVisitorsThailand": 24621
+      },
+      "thainews": {
+        "rankThailand": 50,
+        "rankAll": 53,
+        "dailyUipThailand": 11415,
+        "dailyUipAll": 11911,
+        "thailandSharePct": 95.84,
+        "dailyVisitorsThailand": 14679
+      },
+      "nationthailand": {
+        "rankThailand": 51,
+        "rankAll": 34,
+        "dailyUipThailand": 11358,
+        "dailyUipAll": 25456,
+        "thailandSharePct": 44.62,
+        "dailyVisitorsThailand": 12317
+      },
+      "posttoday": {
+        "rankThailand": 56,
+        "rankAll": 55,
+        "dailyUipThailand": 9556,
+        "dailyUipAll": 10379,
+        "thailandSharePct": 92.07,
+        "dailyVisitorsThailand": 10440
+      },
+      "nationtv": {
+        "rankThailand": 58,
+        "rankAll": 59,
+        "dailyUipThailand": 8746,
+        "dailyUipAll": 9353,
+        "thailandSharePct": 93.51,
+        "dailyVisitorsThailand": 9550
+      },
+      "springnews": {
+        "rankThailand": 78,
+        "rankAll": 77,
+        "dailyUipThailand": 3287,
+        "dailyUipAll": 3716,
+        "thailandSharePct": 88.46,
+        "dailyVisitorsThailand": 7053
+      },
+      "thepeople": {
+        "rankThailand": 107,
+        "rankAll": 110,
+        "dailyUipThailand": 861,
+        "dailyUipAll": 975,
+        "thailandSharePct": 88.31,
+        "dailyVisitorsThailand": 889
+      },
+      "khobsanam": {
+        "rankThailand": 161,
+        "rankAll": 162,
+        "dailyUipThailand": 67,
+        "dailyUipAll": 106,
+        "thailandSharePct": 63.21,
+        "dailyVisitorsThailand": 91
+      }
+    }
+  },
+  "monthly": [
+    {
+      "monthKey": "202605",
+      "monthLabel": "May 2026",
+      "shortLabel": "May '26",
+      "daysInMonth": 31,
+      "sourceUrl": "https://truehits.net/script/202605/rank0.php",
+      "brands": {
+        "bangkokbiznews": {
+          "rank": 13,
+          "avgDailyUip": 129084,
+          "avgDailySessions": 178228,
+          "avgDailyPageviews": 235569
+        },
+        "komchadluek": {
+          "rank": 19,
+          "avgDailyUip": 79050,
+          "avgDailySessions": 378171,
+          "avgDailyPageviews": 549792
+        },
+        "tnews": {
+          "rank": 21,
+          "avgDailyUip": 76590,
+          "avgDailySessions": 97359,
+          "avgDailyPageviews": 137490
+        },
+        "thansettakij": {
+          "rank": 30,
+          "avgDailyUip": 48924,
+          "avgDailySessions": 65029,
+          "avgDailyPageviews": 81608
+        },
+        "posttoday": {
+          "rank": 42,
+          "avgDailyUip": 26245,
+          "avgDailySessions": 42508,
+          "avgDailyPageviews": 52522
+        },
+        "nationthailand": {
+          "rank": 43,
+          "avgDailyUip": 21774,
+          "avgDailySessions": 28755,
+          "avgDailyPageviews": 39279
+        },
+        "thainews": {
+          "rank": 57,
+          "avgDailyUip": 14318,
+          "avgDailySessions": 19462,
+          "avgDailyPageviews": 25867
+        },
+        "nationtv": {
+          "rank": 60,
+          "avgDailyUip": 12764,
+          "avgDailySessions": 14703,
+          "avgDailyPageviews": 18621
+        },
+        "springnews": {
+          "rank": 78,
+          "avgDailyUip": 5853,
+          "avgDailySessions": 12889,
+          "avgDailyPageviews": 17236
+        },
+        "thepeople": {
+          "rank": 127,
+          "avgDailyUip": 1175,
+          "avgDailySessions": 1276,
+          "avgDailyPageviews": 1456
+        },
+        "khobsanam": {
+          "rank": 189,
+          "avgDailyUip": 199,
+          "avgDailySessions": 287,
+          "avgDailyPageviews": 501
+        }
+      }
+    },
+    {
+      "monthKey": "202606",
+      "monthLabel": "Jun 2026",
+      "shortLabel": "Jun '26",
+      "daysInMonth": 30,
+      "sourceUrl": "https://truehits.net/script/202606/rank0.php",
+      "brands": {
+        "tnews": {
+          "rank": 12,
+          "avgDailyUip": 113350,
+          "avgDailySessions": 146604,
+          "avgDailyPageviews": 211120
+        },
+        "bangkokbiznews": {
+          "rank": 14,
+          "avgDailyUip": 105968,
+          "avgDailySessions": 139256,
+          "avgDailyPageviews": 191300
+        },
+        "komchadluek": {
+          "rank": 21,
+          "avgDailyUip": 82283,
+          "avgDailySessions": 104643,
+          "avgDailyPageviews": 136875
+        },
+        "thansettakij": {
+          "rank": 29,
+          "avgDailyUip": 45899,
+          "avgDailySessions": 55975,
+          "avgDailyPageviews": 72981
+        },
+        "thainews": {
+          "rank": 41,
+          "avgDailyUip": 26922,
+          "avgDailySessions": 33333,
+          "avgDailyPageviews": 43176
+        },
+        "nationthailand": {
+          "rank": 50,
+          "avgDailyUip": 19388,
+          "avgDailySessions": 26247,
+          "avgDailyPageviews": 37538
+        },
+        "posttoday": {
+          "rank": 51,
+          "avgDailyUip": 17431,
+          "avgDailySessions": 24173,
+          "avgDailyPageviews": 32962
+        },
+        "nationtv": {
+          "rank": 52,
+          "avgDailyUip": 17118,
+          "avgDailySessions": 19587,
+          "avgDailyPageviews": 24119
+        },
+        "springnews": {
+          "rank": 70,
+          "avgDailyUip": 8042,
+          "avgDailySessions": 15259,
+          "avgDailyPageviews": 20345
+        },
+        "thepeople": {
+          "rank": 127,
+          "avgDailyUip": 1164,
+          "avgDailySessions": 1337,
+          "avgDailyPageviews": 1508
+        },
+        "khobsanam": {
+          "rank": 193,
+          "avgDailyUip": 169,
+          "avgDailySessions": 294,
+          "avgDailyPageviews": 544
+        }
+      }
+    },
+    {
+      "monthKey": "202607",
+      "monthLabel": "Jul 2026",
+      "shortLabel": "Jul '26",
+      "daysInMonth": 31,
+      "sourceUrl": "https://truehits.net/script/202607/rank0.php",
+      "brands": {
+        "tnews": {
+          "rank": 12,
+          "avgDailyUip": 119872,
+          "avgDailySessions": 155553,
+          "avgDailyPageviews": 222025
+        },
+        "bangkokbiznews": {
+          "rank": 14,
+          "avgDailyUip": 97180,
+          "avgDailySessions": 125910,
+          "avgDailyPageviews": 169643
+        },
+        "komchadluek": {
+          "rank": 17,
+          "avgDailyUip": 87098,
+          "avgDailySessions": 104868,
+          "avgDailyPageviews": 141329
+        },
+        "thansettakij": {
+          "rank": 29,
+          "avgDailyUip": 48894,
+          "avgDailySessions": 59556,
+          "avgDailyPageviews": 80775
+        },
+        "thainews": {
+          "rank": 42,
+          "avgDailyUip": 24864,
+          "avgDailySessions": 30931,
+          "avgDailyPageviews": 39761
+        },
+        "posttoday": {
+          "rank": 44,
+          "avgDailyUip": 21561,
+          "avgDailySessions": 28781,
+          "avgDailyPageviews": 36669
+        },
+        "nationtv": {
+          "rank": 50,
+          "avgDailyUip": 18412,
+          "avgDailySessions": 20472,
+          "avgDailyPageviews": 24641
+        },
+        "nationthailand": {
+          "rank": 53,
+          "avgDailyUip": 15961,
+          "avgDailySessions": 21345,
+          "avgDailyPageviews": 31438
+        },
+        "springnews": {
+          "rank": 85,
+          "avgDailyUip": 5008,
+          "avgDailySessions": 11402,
+          "avgDailyPageviews": 14872
+        },
+        "thepeople": {
+          "rank": 119,
+          "avgDailyUip": 1481,
+          "avgDailySessions": 1799,
+          "avgDailyPageviews": 1983
+        },
+        "khobsanam": {
+          "rank": 188,
+          "avgDailyUip": 158,
+          "avgDailySessions": 231,
+          "avgDailyPageviews": 617
+        }
+      }
+    },
+    {
+      "monthKey": "202608",
+      "monthLabel": "Aug 2026",
+      "shortLabel": "Aug '26",
+      "daysInMonth": 31,
+      "sourceUrl": "https://truehits.net/script/202608/rank0.php",
+      "brands": {
+        "tnews": {
+          "rank": 11,
+          "avgDailyUip": 121033,
+          "avgDailySessions": 163971,
+          "avgDailyPageviews": 254996
+        },
+        "komchadluek": {
+          "rank": 14,
+          "avgDailyUip": 93699,
+          "avgDailySessions": 117503,
+          "avgDailyPageviews": 160834
+        },
+        "bangkokbiznews": {
+          "rank": 15,
+          "avgDailyUip": 88088,
+          "avgDailySessions": 114887,
+          "avgDailyPageviews": 155416
+        },
+        "thansettakij": {
+          "rank": 28,
+          "avgDailyUip": 47236,
+          "avgDailySessions": 57867,
+          "avgDailyPageviews": 73569
+        },
+        "thainews": {
+          "rank": 43,
+          "avgDailyUip": 21744,
+          "avgDailySessions": 27496,
+          "avgDailyPageviews": 34880
+        },
+        "posttoday": {
+          "rank": 45,
+          "avgDailyUip": 21086,
+          "avgDailySessions": 26371,
+          "avgDailyPageviews": 33349
+        },
+        "nationthailand": {
+          "rank": 49,
+          "avgDailyUip": 17415,
+          "avgDailySessions": 23511,
+          "avgDailyPageviews": 34639
+        },
+        "nationtv": {
+          "rank": 59,
+          "avgDailyUip": 11891,
+          "avgDailySessions": 13779,
+          "avgDailyPageviews": 17403
+        },
+        "springnews": {
+          "rank": 77,
+          "avgDailyUip": 6102,
+          "avgDailySessions": 12412,
+          "avgDailyPageviews": 16610
+        },
+        "thepeople": {
+          "rank": 116,
+          "avgDailyUip": 1454,
+          "avgDailySessions": 1816,
+          "avgDailyPageviews": 2018
+        },
+        "khobsanam": {
+          "rank": 189,
+          "avgDailyUip": 134,
+          "avgDailySessions": 304,
+          "avgDailyPageviews": 720
+        }
+      }
+    },
+    {
+      "monthKey": "202609",
+      "monthLabel": "Sep 2026",
+      "shortLabel": "Sep '26",
+      "daysInMonth": 30,
+      "sourceUrl": "https://truehits.net/script/202609/rank0.php",
+      "brands": {
+        "bangkokbiznews": {
+          "rank": 14,
+          "avgDailyUip": 101171,
+          "avgDailySessions": 131879,
+          "avgDailyPageviews": 178510
+        },
+        "tnews": {
+          "rank": 16,
+          "avgDailyUip": 89808,
+          "avgDailySessions": 114118,
+          "avgDailyPageviews": 190453
+        },
+        "komchadluek": {
+          "rank": 18,
+          "avgDailyUip": 85315,
+          "avgDailySessions": 103850,
+          "avgDailyPageviews": 138774
+        },
+        "thansettakij": {
+          "rank": 27,
+          "avgDailyUip": 47940,
+          "avgDailySessions": 58780,
+          "avgDailyPageviews": 76555
+        },
+        "nationthailand": {
+          "rank": 42,
+          "avgDailyUip": 20026,
+          "avgDailySessions": 26931,
+          "avgDailyPageviews": 40597
+        },
+        "thainews": {
+          "rank": 48,
+          "avgDailyUip": 17599,
+          "avgDailySessions": 22880,
+          "avgDailyPageviews": 28686
+        },
+        "posttoday": {
+          "rank": 52,
+          "avgDailyUip": 15303,
+          "avgDailySessions": 19943,
+          "avgDailyPageviews": 25392
+        },
+        "nationtv": {
+          "rank": 57,
+          "avgDailyUip": 12717,
+          "avgDailySessions": 15096,
+          "avgDailyPageviews": 18782
+        },
+        "springnews": {
+          "rank": 72,
+          "avgDailyUip": 7060,
+          "avgDailySessions": 13830,
+          "avgDailyPageviews": 22773
+        },
+        "thepeople": {
+          "rank": 121,
+          "avgDailyUip": 1204,
+          "avgDailySessions": 1327,
+          "avgDailyPageviews": 1524
+        },
+        "khobsanam": {
+          "rank": 184,
+          "avgDailyUip": 156,
+          "avgDailySessions": 217,
+          "avgDailyPageviews": 589
+        }
+      }
+    },
+    {
+      "monthKey": "202610",
+      "monthLabel": "Oct 2026",
+      "shortLabel": "Oct '26",
+      "daysInMonth": 31,
+      "sourceUrl": "https://truehits.net/script/202610/rank0.php",
+      "brands": {
+        "bangkokbiznews": {
+          "rank": 14,
+          "avgDailyUip": 84444,
+          "avgDailySessions": 108820,
+          "avgDailyPageviews": 146398
+        },
+        "tnews": {
+          "rank": 17,
+          "avgDailyUip": 76226,
+          "avgDailySessions": 94417,
+          "avgDailyPageviews": 156525
+        },
+        "komchadluek": {
+          "rank": 22,
+          "avgDailyUip": 49544,
+          "avgDailySessions": 57201,
+          "avgDailyPageviews": 76716
+        },
+        "thansettakij": {
+          "rank": 24,
+          "avgDailyUip": 46061,
+          "avgDailySessions": 64159,
+          "avgDailyPageviews": 91234
+        },
+        "nationthailand": {
+          "rank": 41,
+          "avgDailyUip": 21915,
+          "avgDailySessions": 29076,
+          "avgDailyPageviews": 46337
+        },
+        "thainews": {
+          "rank": 42,
+          "avgDailyUip": 18325,
+          "avgDailySessions": 24031,
+          "avgDailyPageviews": 30201
+        },
+        "nationtv": {
+          "rank": 53,
+          "avgDailyUip": 12981,
+          "avgDailySessions": 16164,
+          "avgDailyPageviews": 19916
+        },
+        "posttoday": {
+          "rank": 56,
+          "avgDailyUip": 12578,
+          "avgDailySessions": 15945,
+          "avgDailyPageviews": 20130
+        },
+        "springnews": {
+          "rank": 75,
+          "avgDailyUip": 5268,
+          "avgDailySessions": 11918,
+          "avgDailyPageviews": 15042
+        },
+        "thepeople": {
+          "rank": 115,
+          "avgDailyUip": 1134,
+          "avgDailySessions": 1270,
+          "avgDailyPageviews": 1445
+        },
+        "khobsanam": {
+          "rank": 180,
+          "avgDailyUip": 152,
+          "avgDailySessions": 217,
+          "avgDailyPageviews": 556
+        }
+      }
+    }
+  ]
+}

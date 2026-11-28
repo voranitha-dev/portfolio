@@ -5,9 +5,14 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Rebuild daily at 09:00 Bangkok time so Truehits numbers stay current
+  # (Truehits publishes the previous day's ranking, so the site is at most ~1 day behind).
+  schedule:
+    - cron: '0 2 * * *'
 
 permissions:
-  contents: read
+  # write: lets the scheduled run commit the refreshed Truehits snapshot back to main.
+  contents: write
   pages: write
   id-token: write
 
@@ -29,6 +34,29 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+
+      - name: Refresh Truehits data
+        run: node scripts/fetchTruehits.mjs
+
+      # Keeps src/data/truehitsData.json in the repo current, and the daily commit keeps the
+      # repo "active" so GitHub never auto-disables this schedule (it does after 60 idle days).
+      # Commits made with GITHUB_TOKEN don't trigger another workflow run, so there is no loop.
+      - name: Commit refreshed Truehits snapshot
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- src/data/truehitsData.json; then
+            echo "Truehits snapshot unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/truehitsData.json
+          git commit -m "chore(data): refresh Truehits snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Type check
+        run: npm run lint
 
       - name: Build for GitHub Pages
         env:

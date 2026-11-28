@@ -1,36 +1,59 @@
-# Voranitha Changduong — Lead Frontend & Full-Stack AI Portfolio
+# Voranitha Changduong — Portfolio
 
-Interactive engineering portfolio showcasing high-traffic media platforms (Nation Group), production AI workflows (n8n + Google Gemini 2.5 Flash, Cross-Domain Auth0 SSO → BigQuery/Power BI → LINE OA), travel-tech booking systems (TravisGo), and enterprise full-stack works.
+Personal portfolio for a Lead Frontend & Full-Stack AI Engineer: 10+ high-traffic news sites (Nation Group), real-time awards voting, production LLM workflows, and STAR-format case studies.
 
-## Live Deployment Targets
+- **Live:** https://voranitha-dev.github.io/portfolio/
+- **Stack:** React 19, TypeScript, Emotion (CSS-in-JS), Motion, Vite
 
-- **GitHub Pages**: `https://voranitha-dev.github.io/portfolio/`
-- **Repository**: `https://github.com/voranitha-dev/portfolio.git`
-- **Vercel**: Zero-config static SPA via `vercel.json`
-
-## Local Development
+## Develop
 
 ```bash
 npm install
-npm run dev
+npm run dev              # http://localhost:3000
+npm run lint             # type check
+npm run build:gh-pages   # production build under /portfolio/
+npm run preview:gh-pages # serve that build at http://localhost:4173/portfolio/
 ```
 
-## Production Builds
+Node 22 is required (`vite` 8).
 
-```bash
-# Root path build (Vercel / custom domain)
-npm run build
+## Project layout
 
-# GitHub Pages subpath build (/portfolio/)
-npm run build:gh-pages
+All source files use camelCase names.
+
+```
+src/
+  app.tsx                 page composition
+  styles/                 theme tokens, global styles, shared Emotion primitives
+  components/             one file per section (heroSection, platformsSection, …)
+  data/portfolioData.ts   profile, STAR case studies, experience, skills, gallery
+  data/truehitsData.json  generated Truehits snapshot (do not edit by hand)
+  hooks/ utils/
+scripts/fetchTruehits.mjs Truehits sync script
+public/assets/            logos, screenshots, resume PDF (camelCase file names)
 ```
 
-## Deploy to GitHub Pages (Automatic via GitHub Actions)
+## Truehits traffic data
 
-1. Push the `main` branch to `https://github.com/voranitha-dev/portfolio.git`:
-   ```bash
-   git push -u origin main
-   ```
-2. Open your repository on GitHub → **Settings** → **Pages**.
-3. Under **Build and deployment → Source**, select **GitHub Actions**.
-4. The workflow `.github/workflows/deploy.yml` will automatically build with `GITHUB_PAGES=true` and publish your site to `https://voranitha-dev.github.io/portfolio/`.
+Truehits.net does not allow cross-origin requests, so the browser can't fetch it live. Instead:
+
+- `npm run truehits:update` pulls the latest **daily** ranking and the last 6 **monthly** reports for the 11 tracked sites and rewrites `src/data/truehitsData.json`.
+- The GitHub Actions deploy runs the same script before every build, and a daily cron (09:00 Bangkok time) rebuilds the site, so the live page always shows the newest published numbers.
+- Scheduled runs also commit the refreshed `truehitsData.json` back to `main`, so the repo stays current and GitHub never auto-disables the schedule (it pauses cron workflows after 60 days without repo activity).
+- If Truehits is unreachable, or returns fewer brands than the stored snapshot, the script keeps the previous data and the deploy continues.
+
+To track another site, add it to `TRACKED_DOMAINS` in `scripts/fetchTruehits.mjs` and to `NATION_BRAND_PLATFORMS` in `src/data/portfolioData.ts`.
+
+## Updating content
+
+- Resume: replace `public/assets/resume/voranithaChangduongResume.pdf`.
+- Case studies: edit `CASE_STUDIES` in `src/data/portfolioData.ts` (`situation`, `task`, `actions`, `results`, `metrics`).
+- Social preview image: `public/ogImage.png` (1200 × 630).
+
+## SEO
+
+`index.html` carries the title, description, canonical URL, Open Graph / Twitter tags, JSON-LD (`Person`, `ProfilePage`, `WebSite`) and a `<noscript>` summary. The page uses one `h1` and an `h2` per section. Submit `https://voranitha-dev.github.io/portfolio/sitemap.xml` in Google Search Console.
+
+## Deploy
+
+Push to `main`. `.github/workflows/deploy.yml` type-checks, refreshes Truehits, builds with `GITHUB_PAGES=true` and publishes to GitHub Pages (Settings → Pages → Source: GitHub Actions).
